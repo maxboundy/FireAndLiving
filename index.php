@@ -20,5 +20,27 @@ awesome.min.css">
 label="Toggle navigation">
 <i class="fa fa-bars"></i>
 
+</button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Aboutus">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Showroom">Showroom</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+
+</nav>
+</section>
+
     </body>
 </html> 
