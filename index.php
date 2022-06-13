@@ -42,5 +42,10 @@ label="Toggle navigation">
 </nav>
 </section>
 
+<section id="banner">
+    
+
+</section>
+
     </body>
 </html> 
