@@ -17,7 +17,7 @@ z-index: 10;
 }
 .navbar
 {
-background-image: linear-gradient(to right, #f3d424, #e69122);
+background-image: linear-gradient(to right, #fbfbfa, #fefdfb);
 padding: 0 !important;
 }
 .navbar-brand img
@@ -33,7 +33,7 @@ padding: 0 10px;
 }
 .navbar-nav li a
 {
-color: #fff !important;
+color: rgb(3, 3, 3) !important;
 font-weight: 600;
 float: right;
 text-align: left;
@@ -42,10 +42,73 @@ text-align: left;
 
 .fa-bars
 {
-color: #fff;
+color: rgb(7, 7, 7);
 font-size: 30px !important;
 }
 .navbar-toggler
 {
 outline: none !important;
 }
+
+
+/*-------banner section---------*/
+
+#banner
+{
+background-image: linear-gradient(to right, #060606, #050505);
+color: #fff;
+padding-top: 5%;
+}
+.promo-title 
+{
+font-size: 40px;
+font-weight: 600;
+margin-top: 100px;
+}
+.play-btn
+{
+  height: 70px;
+  width: 60px;
+  margin: 20px;
+}
+
+#banner a
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+bottom_img
+{
+  width: 100%;
+}
+
+/*-----------Footer-------------*/
+
+#footer { 
+    background-image: linear-gradient(to right, #5a5a5a, #5a5a5a);
+    color: rgb(252, 251, 251);
+    }
+    .footer-img {
+      width: 100%;
+    }
+    
+    .footer-box{
+      padding: 20px;
+    }
+    .footer-box img{
+      width: 150px;
+      margin: 20px;
+    }
+    
+    .footer-box .fa
+    {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #f3d424, #e69122);
+    }
