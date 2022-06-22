@@ -55,7 +55,7 @@ outline: none !important;
 
 #banner
 {
-background-image: linear-gradient(to right, #060606, #050505);
+background-image: linear-gradient(to right, #5a5a5a, #5a5a5a);
 color: #fff;
 padding-top: 5%;
 }
@@ -86,8 +86,8 @@ bottom_img
 /*-----------Footer-------------*/
 
 #footer { 
-    background-image: linear-gradient(to right, #5a5a5a, #5a5a5a);
-    color: rgb(252, 251, 251);
+    background-image: linear-gradient(to right, #faf6f6, #fefdfd);
+    color: rgb(7, 7, 7);
     }
     .footer-img {
       width: 100%;

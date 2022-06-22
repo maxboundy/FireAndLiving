@@ -65,7 +65,6 @@ label="Toggle navigation">
 <!-------------Footer section------->
 
 <section id="footer">
-<img src="images/wave2.png" class="footer-img">
 <div class="container">
 <div class="row">
 <div class="col-md-4 footer-box">
@@ -85,6 +84,7 @@ label="Toggle navigation">
 <p><b>Jonathan Boundy- Founder/Owner</b></p>
 
 
+</div>
 </div>
 </div>
 
