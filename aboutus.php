@@ -51,6 +51,26 @@ label="Toggle navigation">
 
 </section>
 
+<div class="col-md-4 services">
+<img src="images/fire1.png" alt="Fireplace"  class="Aboutus-img">
+<h4>What we offer</h4>
+<p> We offer top notch Fire and Living services in the Warkworth & further Auckland area, all for a good price.</p>
+</div>
+<div class="col-md-4 services">
+<img src="images/fire4.png" alt="Fireplace" class="Aboutus-img">
+<h4>How to contact</h4>
+<p>You can contact Me at my phone 0224218047 and for a inquire or quote use the contact box at the bottom of the page.</p>
+
+</div>
+</div>
+
+</div>
+
+</section>
+
+<hr>
+<!------------Showroom---------->
+
 <!-------------Footer section------->
 
 <section id="footer">
