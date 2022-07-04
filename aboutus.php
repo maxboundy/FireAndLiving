@@ -51,6 +51,7 @@ label="Toggle navigation">
 
 </section>
 
+<div class="container text-center">
 <div class="col-md-4 services">
 <img src="images/fire1.png" alt="Fireplace"  class="Aboutus-img">
 <h4>What we offer</h4>

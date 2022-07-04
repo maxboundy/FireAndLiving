@@ -41,52 +41,29 @@ label="Toggle navigation">
 
 </nav>
 </section>
-<!------banner section---------->
-<section id="banner">
+
 <div class="container">
-<div class="row">
-<div class="col-md-6">
-  <h1 class="promo-title"> Fire and Living </h1>
-  <p> At fire and living we have the best range of Fire and living appliances in the auckland region, we provide a good survice and good prices all products avalible now! </p>
-  <a href="#Showroom"><img src="images/fire.png" class="play-btn">OUR FIRES ( SHOWROOM )</a>
+  <form action="action_page.php">
 
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">location (closest too)</label>
+    <select id="country" name="country">
+      <option value="Auckland">Auckland</option>
+      <option value="Wellington">Wellington</option>
+      <option value="Christchurch">Christchurch</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
 </div>
-<div class="col-md-6 text-center">
-  <img src="images/Me.png" width="300" height="120" class="img-fluid">
-
-</div>
-</div>
-</div>
-
-<img src="images/wave1.png" class="bottom_img">
-
-</section>
-
-<!-------------Footer section------->
-
-<section id="footer">
-<div class="container">
-<div class="row">
-<div class="col-md-4 footer-box">
-<img src="images/logo.png">
-<p>Follow our socials above to see more of what we do behind the scenes!</p>
-</div>
-<div class="col-md-4 footer-box">
-<p><b>Contact us</b></p>
-<p><i class="fa fa-map-marker"></i>Warkworth, New Zealand</p>
-<p><i class="fa fa-phone"></i>+64 224218047</p>
-<p><i class="fa fa-envelope-o"></i>Jono@fireandliving.co.nz</p>
-
-</div>
-<div class="col-md-4 footer-box">
-<p><b>®Fireandliving Ltd.</b></p>
-<img src="images/Me.png">
-<p><b>Jonathan Boundy- Founder/Owner</b></p>
-
-
-</div>
-</div>
-</div>
-
     </body>
-</html> 
+</html>
