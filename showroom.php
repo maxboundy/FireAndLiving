@@ -41,27 +41,66 @@ label="Toggle navigation">
 
 </nav>
 </section>
-<!------banner section---------->
-<section id="banner">
-<div class="container">
-<div class="row">
-<div class="col-md-6">
-  <h1 class="promo-title"> Fire and Living </h1>
-  <p> At fire and living we have the best range of Fire and living appliances in the auckland region, we provide a good survice and good prices all products avalible now! </p>
-  <a href="#Showroom"><img src="images/fire.png" class="play-btn">OUR FIRES ( SHOWROOM )</a>
 
-</div>
-<div class="col-md-6 text-center">
-  <img src="images/Me.png" width="300" height="120" class="img-fluid">
 
-</div>
-</div>
+
+
+
+
+<section id="Showroom">
+  <div class="container text-center">
+
+  <h1 class="title"> What we have... </h1>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="la.jpg" alt="Chania">
+      <div class="carousel-caption">
+        <h3>Wood Fires</h3>
+        <p>Natural quality...</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="chicago.jpg" alt="Chicago">
+      <div class="carousel-caption">
+        <h3>Gas Fires</h3>
+        <p>Warmth for you this winter!</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="ny.jpg" alt="New York">
+      <div class="carousel-caption">
+        <h3>Outdoor Fires</h3>
+        <p>Quality keeping you warm!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
-<img src="images/wave1.png" class="bottom_img">
+  </div>
+
 
 </section>
-
 <!-------------Footer section------->
 
 <section id="footer">

@@ -30,7 +30,7 @@ label="Toggle navigation">
           <a class="nav-link" href="aboutus.php">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Showroom">Showroom</a>
+          <a class="nav-link" href="showroom.php">Showroom</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.php">Contact</a>
@@ -65,5 +65,30 @@ label="Toggle navigation">
 
   </form>
 </div>
+
+<!-------------Footer section------->
+
+<section id="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-4 footer-box">
+<img src="images/logo.png">
+<p>Follow our socials above to see more of what we do behind the scenes!</p>
+</div>
+<div class="col-md-4 footer-box">
+<p><b>Contact us</b></p>
+<p><i class="fa fa-map-marker"></i>Warkworth, New Zealand</p>
+<p><i class="fa fa-phone"></i>+64 224218047</p>
+<p><i class="fa fa-envelope-o"></i>Jono@fireandliving.co.nz</p>
+
+</div>
+<div class="col-md-4 footer-box">
+<p><b>®Fireandliving Ltd.</b></p>
+<img src="images/Me.png">
+<p><b>Jonathan Boundy- Founder/Owner</b></p>
+</div>
+</div>
+</div>
+</section>
     </body>
 </html>
