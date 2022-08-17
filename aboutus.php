@@ -27,13 +27,13 @@ label="Toggle navigation">
           <a class="nav-link" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Aboutus">About Us</a>
+          <a class="nav-link" href="aboutus.php">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Showroom">Showroom</a>
+          <a class="nav-link" href="showroom.php">Showroom</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="contact.php">Contact</a>
         </li>
       </ul>
     </div>
@@ -51,7 +51,18 @@ label="Toggle navigation">
 
 </section>
 
+<!-------About us section--------->
+<section id="Aboutus">
 <div class="container text-center">
+
+
+  <h1 class="title"> About Us </h1>
+<div class="row text-center">
+<div class="col-md-4 services">
+<img src="images/Me2.png" alt="Owner"  class="Aboutus-img">
+<h4>Who we are</h4>
+<p>Since early 2000's, I’ve been proudly providing top notch Fire and Living services in the Warkworth & further Auckland area. I am a licensed and insured professional that can handle whatever you need for your home or office. I bring my workshop right to you so I can get to work quickly on any job, at any location. From small renovations to large scale outdoor work, your satisfaction is guaranteed.</p>
+</div>
 <div class="col-md-4 services">
 <img src="images/fire1.png" alt="Fireplace"  class="Aboutus-img">
 <h4>What we offer</h4>

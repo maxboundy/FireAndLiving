@@ -10,49 +10,48 @@
 awesome.min.css"> 
 
     </head>
+
+    <?php include"setup.php";
+    
+    $sql = "SELECT * FROM pages where id=1";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        // output data of each row
+        $row = $result->fetch_assoc();
+        #debugging print_r($row);
+        $title1=$row["title"];
+        $para1=$row["para1"];
+        $image1=$row["image1"];
+      
+    } else {
+        echo "0 results";
+    }
+$conn->close();
+      
+    ?>
+
+
+
+
+
+
+
     <body>
-    <section id="nav-bar">
+    <?php include "banner.php";?>
 
-<nav class="navbar navbar-expand-lg navbar-light">
-<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
-
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-
-label="Toggle navigation">
-<i class="fa fa-bars"></i>
-
-</button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="aboutus.php">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="showroom.php">Showroom</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.php">Contact</a>
-        </li>
-      </ul>
-    </div>
-    </div>
-
-</nav>
-</section>
 <!------banner section---------->
 <section id="banner">
 <div class="container">
 <div class="row">
 <div class="col-md-6">
-  <h1 class="promo-title"> Fire and Living </h1>
-  <p> At fire and living we have the best range of Fire and living appliances in the auckland region, we provide a good survice and good prices all products avalible now! </p>
+  <h1 class="promo-title"> <?php print $title1; ?> </h1>
+  <p> <?php print $para1; ?> </p>
   <a href="#Showroom"><img src="images/fire.png" class="play-btn">OUR FIRES ( SHOWROOM )</a>
 
 </div>
 <div class="col-md-6 text-center">
-  <img src="images/Me.png" width="300" height="120" class="img-fluid">
+  <img src="images/<?php print $image1; ?>" width="300" height="120" class="img-fluid">
 
 </div>
 </div>
