@@ -1,5 +1,6 @@
 <?php
-include"setup.php";
+session_start();
+include"../setup.php";
 
 // Now we check if the data from the login form was submitted, isset() will check if the data exists.
 if ( !isset($_POST['username'], $_POST['password']) ) {
@@ -27,6 +28,7 @@ if ($stmt->num_rows > 0) {
 		$_SESSION['loggedin'] = TRUE;
 		$_SESSION['name'] = $_POST['username'];
 		$_SESSION['id'] = $id;
+	
 			header('Location: home.php');
 	} else {
 		// Incorrect password

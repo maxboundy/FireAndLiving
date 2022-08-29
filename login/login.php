@@ -13,7 +13,7 @@ echo$_SESSION['message']
 	<body>
 		<div class="login">
 			<h1>Login</h1>
-			<form action="http://localhost/phplogin/authenticate.php" method="post">
+			<form action="authenticate.php" method="post">
 				<label for="username">
 					<i class="fas fa-user"></i>
 				</label>
@@ -28,6 +28,7 @@ echo$_SESSION['message']
 
 										?>
 				<input type="submit" value="Login">
+				<p> new user? <a href="register_form.php"> register</a></p>
 			</form>
 		</div>
 	</body>
