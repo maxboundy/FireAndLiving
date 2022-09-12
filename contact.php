@@ -66,6 +66,18 @@ label="Toggle navigation">
   </form>
 </div>
 
+
+<section id="social-media">
+<div class="container text-center">
+<p>FIND US ON SOCIAL MEDIA</p>
+<div class="social-icons">
+<a href="#https://www.facebook.com/"><img src="images/facebook-icon.png"></a>
+<a href="#https://www.instagram.com/"><img src="images/instagram-icon.png"></a>
+<a href="#https://twitter.com/"><img src="images/twitter-icon.png"></a>
+</div>
+</div>
+</section>
+
 <!-------------Footer section------->
 
 <section id="footer">
@@ -82,6 +94,8 @@ label="Toggle navigation">
 <p><i class="fa fa-envelope-o"></i>Jono@fireandliving.co.nz</p>
 
 </div>
+
+
 <div class="col-md-4 footer-box">
 <p><b>®Fireandliving Ltd.</b></p>
 <img src="images/Me.png">

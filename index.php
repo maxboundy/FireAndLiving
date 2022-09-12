@@ -61,6 +61,18 @@ $conn->close();
 
 </section>
 
+
+<section id="social-media">
+<div class="container text-center">
+<p>FIND US ON SOCIAL MEDIA</p>
+<div class="social-icons">
+<a href="#https://www.facebook.com/"><img src="images/facebook-icon.png"></a>
+<a href="#https://www.instagram.com/"><img src="images/instagram-icon.png"></a>
+<a href="#https://twitter.com/"><img src="images/twitter-icon.png"></a>
+</div>
+</div>
+</section>
+
 <!-------------Footer section------->
 
 <section id="footer">
