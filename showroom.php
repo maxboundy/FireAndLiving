@@ -98,7 +98,7 @@ label="Toggle navigation">
 <section id="Showroom">
   <div class="container text-center">
 
-  <h1 class="title"> What we have... </h1>
+  <h1 class="title"> Our Range... </h1>
 <div class="row text-center">
  
 <center>
@@ -133,54 +133,50 @@ label="Toggle navigation">
 </center>
 </section> 
 
+<!-------gallery----->
 
-
-<h2>Responsive Image Gallery</h2>
-
-<h4>Resize the browser window to see the effect.</h4>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_5terre.jpg">
+    <a target="_blank" href="woodfires.php">
       <img src="images/fire1.png" alt="Cinque Terre" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <div class="desc">Check out the range of wood fires!</div>
   </div>
 </div>
 
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_forest.jpg">
+    <a target="aboutus.php" href="gasfires.php">
       <img src="images/fire2.png" alt="Forest" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <div class="desc">Check out our range of Gas fires!</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_lights.jpg">
+    <a target="_blank" href="chimneys.php">
       <img src="images/outdoor.png" alt="Northern Lights" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <div class="desc">Chimneys for new builds</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
+    <a target="_blank" href="firepit.php">
       <img src="images/fire4.png" alt="Mountains" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <div class="desc">Fire pits</div>
   </div>
 </div>
 
 <div class="clearfix"></div>
 
 <div style="padding:6px;">
-  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
-  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+
 </div>
 
 <!-------------Footer section------->
