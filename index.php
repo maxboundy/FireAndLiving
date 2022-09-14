@@ -40,11 +40,19 @@ $conn->close();
     <body>
     <?php include "banner.php";?>
 
+
+    <div class="container">
+  <img src="images/homepage.png" alt="Snow" style="width: 100%;">
+  <div class="centered"></div>
+</div>
+
 <!------banner section---------->
+
 <section id="banner">
 <div class="container">
 <div class="row">
 <div class="col-md-6">
+ 
   <h1 class="promo-title"> <?php print $title1; ?> </h1>
   <p> <?php print $para1; ?> </p>
   <a href="#Showroom"><img src="images/fire.png" class="play-btn">OUR FIRES ( SHOWROOM )</a>
@@ -57,7 +65,7 @@ $conn->close();
 </div>
 </div>
 
-<img src="images/wave1.png" class="bottom_img">
+
 
 </section>
 

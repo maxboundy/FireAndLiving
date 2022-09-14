@@ -35,6 +35,9 @@ label="Toggle navigation">
         <li class="nav-item">
           <a class="nav-link" href="contact.php">Contact</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login/login.php">login</a>
+        </li>
       </ul>
     </div>
     </div>
@@ -59,17 +62,17 @@ label="Toggle navigation">
   <h1 class="title"> About Us </h1>
 <div class="row text-center">
 <div class="col-md-4 services">
-<img src="images/Me2.png" alt="Owner"  class="Aboutus-img">
+<img src="images/Me.png" alt="Owner"  class="Aboutus-img" width="600" height="400">
 <h4>Who we are</h4>
 <p>Since early 2000's, I’ve been proudly providing top notch Fire and Living services in the Warkworth & further Auckland area. I am a licensed and insured professional that can handle whatever you need for your home or office. I bring my workshop right to you so I can get to work quickly on any job, at any location. From small renovations to large scale outdoor work, your satisfaction is guaranteed.</p>
 </div>
 <div class="col-md-4 services">
-<img src="images/fire1.png" alt="Fireplace"  class="Aboutus-img">
+<img src="images/fire1.png" alt="Fireplace"  class="Aboutus-img" width="600" height="400">
 <h4>What we offer</h4>
 <p> We offer top notch Fire and Living services in the Warkworth & further Auckland area, all for a good price.</p>
 </div>
 <div class="col-md-4 services">
-<img src="images/fire4.png" alt="Fireplace" class="Aboutus-img">
+<img src="images/fire4.png" alt="Fireplace" class="Aboutus-img" width="600" height="400">
 <h4>How to contact</h4>
 <p>You can contact Me at my phone 0224218047 and for a inquire or quote use the contact box at the bottom of the page.</p>
 
