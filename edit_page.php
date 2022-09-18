@@ -72,7 +72,7 @@ awesome.min.css">
     $conn->close();
     ?>
           
-<form action="/action_page.php" method="post">
+<form action="action_page.php" method="post">
           <div class="row">
       <div class="col-25">
         <label for="country">Country</label>

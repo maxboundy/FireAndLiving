@@ -21,6 +21,7 @@ if (!isset($_SESSION['loggedin'])) {
 			<div>
 				<h1>Fire and Living</h1>
 				<a href="profile.php"><i class="fas fa-user-circle"></i>Profile</a>
+				<a href="contactform.php"><i class="fas fa-sign-out-alt"></i>Contact</a>
 				<a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
 			</div>
 		</nav>

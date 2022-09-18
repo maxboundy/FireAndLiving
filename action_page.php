@@ -5,9 +5,10 @@ $fname = $_POST["firstname"];
 $lname = $_POST["lastname"];
 $country = $_POST["country"];
 $subject = $_POST["subject"];
+$email = $_POST["email"];
 
-$sql = "INSERT INTO feedback (firstname, lastname, email)
-VALUES ('$fname', '$lname', '$email')";
+$sql = "INSERT INTO feedback (firstname, lastname, email, subject)
+VALUES ('$fname', '$lname', '$email', '$subject')";
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";

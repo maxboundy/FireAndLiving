@@ -14,7 +14,7 @@ awesome.min.css">
     <section id="nav-bar">
 
 <nav class="navbar navbar-expand-lg navbar-light">
-<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+<a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-
 label="Toggle navigation">
@@ -53,6 +53,8 @@ label="Toggle navigation">
 
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your Email..">
 
     <label for="country">location (closest too)</label>
     <select id="country" name="country">
@@ -74,9 +76,9 @@ label="Toggle navigation">
 <div class="container text-center">
 <p>FIND US ON SOCIAL MEDIA</p>
 <div class="social-icons">
-<a href="#https://www.facebook.com/"><img src="images/facebook-icon.png"></a>
-<a href="#https://www.instagram.com/"><img src="images/instagram-icon.png"></a>
-<a href="#https://twitter.com/"><img src="images/twitter-icon.png"></a>
+<a href="https://www.facebook.com/"><img src="images/facebook-icon.png"></a>
+<a href="https://www.instagram.com/"><img src="images/instagram-icon.png"></a>
+<a href="https://twitter.com/"><img src="images/twitter-icon.png"></a>
 </div>
 </div>
 </section>

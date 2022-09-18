@@ -38,27 +38,70 @@ $stmt->close();
 				<h1>Fire and Living</h1>
 				<a href="profile.php"><i class="fas fa-user-circle"></i>Profile</a>
 				<a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
+                <a href="contactform.php"><i class="fas fa-sign-out-alt"></i>Contact</a>
 			</div>
 		</nav>
-		<div class="content">
-			<h2>Profile Page</h2>
-			<div>
-				<p>Your account details are below:</p>
-				<table>
-					<tr>
-						<td>Username:</td>
-						<td><?=$_SESSION['name']?></td>
-					</tr>
-					<tr>
-						<td>Password:</td>
-						<td><?=$password?></td>
-					</tr>
-					<tr>
-						<td>Email:</td>
-						<td><?=$email?></td>
-					</tr>
-				</table>
-			</div>
+
+
+        
+<html>
+<?php include("../setup.php");?> 
+<?php
+// We need to use sessions, so you should always start sessions using the below code.
+
+// If the user is not logged in redirect to the login page...
+if (!isset($_SESSION['loggedin'])) {
+	header('Location: login.php');
+	$_SESSION['message'] = "Please login to access this page!";
+	exit;
+}
+?>
+
+<div class="content">
+			<h2>Orders</h2>
+			
+			
+      <table id="feedback">
+        <tr>
+        <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Subject</th>
+        </tr>
+
+
+        <?php   
+        $sql = "SELECT * FROM feedback";
+        $result = $conn->query($sql);
+    
+        if ($result->num_rows > 0) {
+          while($row = $result->fetch_assoc()) {
+            
+            
+            #debugging print_r($row);
+                $fname=$row["firstname"];
+            $lname=$row["lastname"];
+            $email=$row["email"];
+            $subject=$row["subject"];
+          
+    ?>
+
+
+          <td><?php echo "$fname"; ?></td>
+          <td><?php echo "$lname"; ?></td>
+          <td><?php echo "$email"; ?></td>
+          <td><?php echo "$subject"; ?></td>
+      
+        </tr>
+
+        <?php
+    }} else {
+        echo "0 results";
+    }
+$conn->close();
+      
+    ?>
+
+
+</table>
 		</div>
-	</body>
-</html>

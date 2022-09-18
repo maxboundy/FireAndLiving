@@ -14,7 +14,7 @@ awesome.min.css">
     <section id="nav-bar">
 
 <nav class="navbar navbar-expand-lg navbar-light">
-<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+<a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-
 label="Toggle navigation">
@@ -49,9 +49,10 @@ label="Toggle navigation">
 <center>
     <div class="card">
   <img src="images/woodfire1.png" alt="Wood fire" width="600" height="400">
-  <h1>Luxuary wood fire</h1>
-  <p class="price">$11,999</p>
-  <p>This fire will garantee you warmth this winter</p>
+  <h1>Base Wood Fire</h1>
+  <p class="price">$3000</p>
+  <p>This fire will garantee you warmth this winter, the fire is powerful and wood based. The price of $3000 includes a deilvery and instalation fee. Along with this you can garantee the qaulity is best to none. Any questions?
+      Inquire via our contact page (seen on the top of the navagation bar) and we will get back to you asap</p>
   <p><button>Add to Cart</button></p>
 </div>
 </center>
@@ -59,9 +60,10 @@ label="Toggle navigation">
 <center>
     <div class="card">
   <img src="images/woodfire2.png" alt="Wood fire" width="600" height="400">
-  <h1>Luxuary wood fire</h1>
-  <p class="price">$11,999</p>
-  <p>This fire will garantee you warmth this winter</p>
+  <h1>Wall fitted Wood Fire</h1>
+  <p class="price">$X</p>
+  <p>This fire will garantee you warmth this winter, and will look good doing it. Along with this you can garantee the qaulity is best to none. Any questions?
+      Inquire via our contact page (seen on the top of the navagation bar) and we will get back to you asap with a quote.</p>
   <p><button>Add to Cart</button></p>
 </div>
 </center>
@@ -70,9 +72,10 @@ label="Toggle navigation">
 <center>
     <div class="card">
   <img src="images/woodfire3.png" alt="Wood fire" width="600" height="400">
-  <h1>Luxuary wood fire</h1>
-  <p class="price">$11,999</p>
-  <p>This fire will garantee you warmth this winter</p>
+  <h1>Small Wood Fire</h1>
+  <p class="price">$1000</p>
+  <p>This fire will garantee you warmth this winter, for any room in your house, its safe to leave on and look sylish. Along with this you can garantee the qaulity is best to none. Any questions?
+      Inquire via our contact page (seen on the top of the navagation bar) and we will get back to you asap</p>
   <p><button>Add to Cart</button></p>
 </div>
 </center>
@@ -81,9 +84,10 @@ label="Toggle navigation">
 <center>
     <div class="card">
   <img src="images/fire1.png" alt="Wood fire" width="600" height="400">
-  <h1>Luxuary wood fire</h1>
-  <p class="price">$11,999</p>
-  <p>This fire will garantee you warmth this winter</p>
+  <h1>Custom fit wood fire</h1>
+  <p class="price">$X</p>
+  <p>These custom fit fires are the best for new builds and homes being renevated. Along with this you can garantee the qaulity is best to none. Any questions?
+      Inquire via our contact page (seen on the top of the navagation bar) and we will get back to you asap</p>
   <p><button>Add to Cart</button></p>
 </div>
 </center>

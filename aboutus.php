@@ -14,7 +14,7 @@ awesome.min.css">
     <section id="nav-bar">
 
 <nav class="navbar navbar-expand-lg navbar-light">
-<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+<a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-
 label="Toggle navigation">
@@ -45,14 +45,7 @@ label="Toggle navigation">
 </nav>
 </section>
 <!------banner section---------->
-<section id="banner">
-<div class="container">
-<div class="row">
-<div class="col-md-6">
-  <h1 class="promo-title"> About us </h1>
-  <p> At fire and living we have the best range of Fire and living appliances in the auckland region, we provide a good survice and good prices all products avalible now! </p>
 
-</section>
 
 <!-------About us section--------->
 <section id="Aboutus">
@@ -62,17 +55,17 @@ label="Toggle navigation">
   <h1 class="title"> About Us </h1>
 <div class="row text-center">
 <div class="col-md-4 services">
-<img src="images/Me.png" alt="Owner"  class="Aboutus-img" width="600" height="400">
+<img src="images/Me.png" alt="Owner"  class="Aboutus-img">
 <h4>Who we are</h4>
 <p>Since early 2000's, I’ve been proudly providing top notch Fire and Living services in the Warkworth & further Auckland area. I am a licensed and insured professional that can handle whatever you need for your home or office. I bring my workshop right to you so I can get to work quickly on any job, at any location. From small renovations to large scale outdoor work, your satisfaction is guaranteed.</p>
 </div>
 <div class="col-md-4 services">
-<img src="images/fire1.png" alt="Fireplace"  class="Aboutus-img" width="600" height="400">
+<img src="images/fire1.png" alt="Fireplace"  class="Aboutus-img">
 <h4>What we offer</h4>
 <p> We offer top notch Fire and Living services in the Warkworth & further Auckland area, all for a good price.</p>
 </div>
 <div class="col-md-4 services">
-<img src="images/fire4.png" alt="Fireplace" class="Aboutus-img" width="600" height="400">
+<img src="images/fire4.png" alt="Fireplace" class="Aboutus-img">
 <h4>How to contact</h4>
 <p>You can contact Me at my phone 0224218047 and for a inquire or quote use the contact box at the bottom of the page.</p>
 

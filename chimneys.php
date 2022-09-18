@@ -14,7 +14,7 @@ awesome.min.css">
     <section id="nav-bar">
 
 <nav class="navbar navbar-expand-lg navbar-light">
-<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+<a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-
 label="Toggle navigation">
@@ -46,9 +46,11 @@ label="Toggle navigation">
     <center>
     <div class="card">
   <img src="images/chimney.png" alt="Wood fire" width="600" height="400">
-  <h1>Luxuary wood fire</h1>
-  <p class="price">$11,999</p>
-  <p>This fire will garantee you warmth this winter</p>
+  <h1>Custom fit Chimneys</h1>
+  <p class="price">$X</p>
+  <p>Our chimneys are a important part of our business, custom designs avalible to best suit you and your propertys. Along with this you can garantee the qaulity is best to none.
+      Inquire via our contact page (seen on the top of the navagation bar) and we will get back to you asap with a quote.
+  </p>
   <p><button>Add to Cart</button></p>
 </div>
 </center>

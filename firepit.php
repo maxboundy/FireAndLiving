@@ -14,7 +14,7 @@ awesome.min.css">
     <section id="nav-bar">
 
 <nav class="navbar navbar-expand-lg navbar-light">
-<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+<a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-
 label="Toggle navigation">
@@ -49,9 +49,10 @@ label="Toggle navigation">
     <center>
     <div class="card">
   <img src="images/firepit1.png" alt="Wood fire" width="600" height="400">
-  <h1>Luxuary wood fire</h1>
-  <p class="price">$11,999</p>
-  <p>This fire will garantee you warmth this winter</p>
+  <h1>Pit Base</h1>
+  <p class="price">$2300</p>
+  <p>This fire will garantee you warmth this winter, the fire is powerful and gas based. The price of $2300 includes a deilvery and instalation fee. Along with this you can garantee the qaulity is best to none. Any questions?
+      Inquire via our contact page (seen on the top of the navagation bar) and we will get back to you asap</p>
   <p><button>Add to Cart</button></p>
 </div>
 </center>
@@ -60,9 +61,10 @@ label="Toggle navigation">
 <center>
     <div class="card">
   <img src="images/fire4.png" alt="Wood fire" width="600" height="400">
-  <h1>Luxuary wood fire</h1>
-  <p class="price">$11,999</p>
-  <p>This fire will garantee you warmth this winter</p>
+  <h1>Custom Fit Fire Pit</h1>
+  <p class="price">$X</p>
+  <p>This fire pit will be the coolest look for your home. The custom pits you design we build. Along with this you can garantee the qaulity is best to none. Any questions?
+      Inquire via our contact page (seen on the top of the navagation bar) and we will get back to you asap</p>
   <p><button>Add to Cart</button></p>
 </div>
 </center>

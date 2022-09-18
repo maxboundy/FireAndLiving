@@ -14,7 +14,7 @@ awesome.min.css">
     <section id="nav-bar">
 
 <nav class="navbar navbar-expand-lg navbar-light">
-<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+<a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-
 label="Toggle navigation">
@@ -49,9 +49,10 @@ label="Toggle navigation">
     <center>
     <div class="card">
   <img src="images/gasfire1.png" alt="Wood fire" width="600" height="400">
-  <h1>Luxuary wood fire</h1>
-  <p class="price">$11,999</p>
-  <p>This fire will garantee you warmth this winter</p>
+  <h1>Custom Fit Gas Fire</h1>
+  <p class="price">$X</p>
+  <p>This fire will garantee you warmth this winter, we can put these fires anywhere inside and out. They are a great source of warmth and you will use it daily! Great for new builds and revovated homes. Along with this you can garantee the qaulity is best to none.
+      Inquire via our contact page (seen on the top of the navagation bar) and we will get back to you asap with a quote</p>
   <p><button>Add to Cart</button></p>
 </div>
 </center>
@@ -61,9 +62,10 @@ label="Toggle navigation">
 <center>
     <div class="card">
   <img src="images/gasfire2.png" alt="Wood fire" width="600" height="400">
-  <h1>Luxuary wood fire</h1>
-  <p class="price">$11,999</p>
-  <p>This fire will garantee you warmth this winter</p>
+  <h1>Base Gas Fire Fitting</h1>
+  <p class="price">$2499</p>
+  <p>Our base Gas fire is a very reliable, $2499 for the base and a $500 instalation fee. Along with this you can garantee the qaulity is best to none. Any questions, contact me.
+      Inquire via our contact page (seen on the top of the navagation bar) and we will get back to you ASAP</p>
   <p><button>Add to Cart</button></p>
 </div>
 </center>
@@ -71,9 +73,10 @@ label="Toggle navigation">
 <center>
     <div class="card">
   <img src="images/gasfire3.png" alt="Wood fire" width="600" height="400">
-  <h1>Luxuary wood fire</h1>
-  <p class="price">$11,999</p>
-  <p>This fire will garantee you warmth this winter</p>
+  <h1>Custom Fit Glass Gas Fire </h1>
+  <p class="price">$X</p>
+  <p>This fire will garantee you warmth this winter, with also a great look in your home. The glass fires start from $5000 but move upward of there. Along with this you can garantee the qaulity is best to none.
+      Inquire via our contact page (seen on the top of the navagation bar) and we will get back to you asap with a quote</p>
   <p><button>Add to Cart</button></p>
 </div>
 </center>
