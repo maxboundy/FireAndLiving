@@ -55,7 +55,7 @@ $conn->close();
  
   <h1 class="promo-title"> <?php print $title1; ?> </h1>
   <p> <?php print $para1; ?> </p>
-  <a href="#Showroom"><img src="images/fire.png" class="play-btn">OUR FIRES ( SHOWROOM )</a>
+  <a href="showroom.php"><img src="images/fire.png" class="play-btn">OUR FIRES ( SHOWROOM )</a>
 
 </div>
 <div class="col-md-6 text-center">
