@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 $servername = "localhost";
 $username = "sec_user";
 $password = "greenChair153";
-$dbname = "atestdb";
+$dbname = "fireandliving";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
