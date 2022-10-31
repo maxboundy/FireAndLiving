@@ -15,6 +15,7 @@ if ($conn->query($sql) === TRUE) {
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
+header('Location: showroom.php');
 
 $conn->close();
 
